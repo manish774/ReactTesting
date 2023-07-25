@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Form from "./component/Form/Form";
 
 function App() {
   const showDialogRef = useRef(null);
@@ -27,6 +28,7 @@ function App() {
           </form>
         </dialog>
       </header>
+      <Form />
     </div>
   );
 }
